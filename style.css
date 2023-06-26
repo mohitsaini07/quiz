@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  font-size: 1rem;
+}
+
+.main_div {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgb(186, 206, 209);
+}
+
+.inner_div {
+  width: 40vw;
+  background: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.inner_div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.inner_div ul {
+  margin-bottom: 1rem;
+}
+
+.inner_div ul li {
+  list-style-type: none;
+}
+
+.inner_div #submit {
+  padding: 0.8rem 1rem;
+  color: #fff;
+  background-color: rgb(53, 196, 172);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.1s ease-in-out;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+}
+
+.inner_div #submit:hover {
+  background: #89cbca;
+}
+
+.custom_radio {
+  appearance: none;
+  outline: 2px solid black;
+  outline-offset: 1px;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.custom_radio:checked {
+  background: rgb(75, 169, 150);
+}
+
+#show_score {
+  background-color: #dbdbdb;
+  margin-top: 3rem;
+  padding: 3rem 4rem;
+  box-shadow: 2rem 1rem 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#show_score h3 {
+  font-size: 2rem;
+  color: #232323;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#show_score .btn {
+  padding: 0.8rem 1rem;
+  color: #fff;
+  background-color: rgb(53, 196, 172);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.1s ease-in-out;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+}
+
+#show_score .btn:hover {
+  background: #89cbca;
+}
+
+.scoreArea {
+  display: none;
+}
